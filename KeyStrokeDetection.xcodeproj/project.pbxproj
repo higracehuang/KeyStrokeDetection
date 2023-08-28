@@ -11,6 +11,7 @@
 		06D9FACA2A9D36FA00C4A03A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D9FAC92A9D36FA00C4A03A /* ContentView.swift */; };
 		06D9FACC2A9D36FC00C4A03A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D9FACB2A9D36FC00C4A03A /* Assets.xcassets */; };
 		06D9FACF2A9D36FC00C4A03A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D9FACE2A9D36FC00C4A03A /* Preview Assets.xcassets */; };
+		06D9FAD72A9D375200C4A03A /* CGKeyCodeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D9FAD62A9D375100C4A03A /* CGKeyCodeExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		06D9FACB2A9D36FC00C4A03A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06D9FACE2A9D36FC00C4A03A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		06D9FAD02A9D36FC00C4A03A /* KeyStrokeDetection.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeyStrokeDetection.entitlements; sourceTree = "<group>"; };
+		06D9FAD62A9D375100C4A03A /* CGKeyCodeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGKeyCodeExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				06D9FAC72A9D36FA00C4A03A /* KeyStrokeDetectionApp.swift */,
+				06D9FAD62A9D375100C4A03A /* CGKeyCodeExtension.swift */,
 				06D9FAC92A9D36FA00C4A03A /* ContentView.swift */,
 				06D9FACB2A9D36FC00C4A03A /* Assets.xcassets */,
 				06D9FAD02A9D36FC00C4A03A /* KeyStrokeDetection.entitlements */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06D9FACA2A9D36FA00C4A03A /* ContentView.swift in Sources */,
+				06D9FAD72A9D375200C4A03A /* CGKeyCodeExtension.swift in Sources */,
 				06D9FAC82A9D36FA00C4A03A /* KeyStrokeDetectionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +283,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.deelightfullabs.KeyStrokeDetection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -306,6 +311,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.deelightfullabs.KeyStrokeDetection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
